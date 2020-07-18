@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <!-- Poner los css locales debajo de los externos -->
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <title>Venta</title>
+</head>
+    <body>
+         <!-- Aquí empieza el navbar -->
+         <nav class="fadeInDown">
+            <div class="brand-image">
+                <a href="index.html"><img src="./images/logo.png"alt=""> </a>
+            </div>
+            <div class="nav-options">
+                <ul>
+                    <li><a href="#">Faqs</a></li>
+                    <li><a href="productos2.html">Producto y Descripción</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Formulario venta -->
+        <div class="container container-space">
+            <div class="row row-padding-left">
+                <div class="col-4">
+                    <div class="modulo-pago">
+                        <div class="modulo-pago-images">
+                            <img src="images/box2.png" alt="">
+                        </div>
+                        <h3>Producto</h3>
+                        <p>
+                            Miles de productos hay en el mercado, pero nada como una caja con gatitoss
+                        </p>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="modulo-pago">
+                        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KGUPXY746XVZL" method="post" >
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" placeholder="" id="name" class="data">
+                            <input type="hidden" name="first_name" value="John">
+                            <label for="mail">Mail</label> 
+                            <input type="text" name="mail" placeholder="" id="mail" class="data">
+                            <input type="hidden" name="email" value="jdoe@zyzzyu.com">
+                            <label for="phone">Telefono</label>
+                            <input type="text" name="phone" placeholder="" id="phone" class="data">
+                            <input type="hidden" name="night_phone_a" value="610">
+                            <input type="submit"  class="main-button" name="submit" value="Confirmar Pago" >
+            
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            <div class ="footer">
+                <div>
+                    <p>Terminos y condiciones</p>
+                </div>    
+                <div>
+                    <p>contacto@mail.com</p>
+                </div>
+            </div> 
+        </footer>
+        <script scr=""></script>
+    </body>
+</html>

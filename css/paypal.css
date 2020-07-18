@@ -1,0 +1,14 @@
+body{
+    background-color: #313337;
+    text-align: center;
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;/*viewport height ocupa el tamaño de alto de la pantalla*/
+}
+
+.content-paypal a{
+    color:var(--green-color);
+    
+}

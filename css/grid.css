@@ -1,0 +1,158 @@
+/* container > row > column */
+
+.container {
+ 
+    max-width: 900px;
+    /* border: 1px solid red; */
+    margin: auto;
+ 
+  }
+  
+  div[class^="col"] {
+    /* border: 1px solid blue; */
+    padding: 10px;
+    display: flex;
+  }
+
+.row {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.row h1 {
+    padding-top: 50px;
+    font-size: 41px;
+}
+
+.img-product{   
+    padding:40px;
+    height:230px;
+    width: 230px;
+    background-size: cover;
+    object-fit: cover;
+}   
+
+.img-product img{   
+    background-size: cover;
+    object-fit: cover;
+}   
+
+.description{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.description p h2{
+    font-size: 14px;
+}
+
+.col-1{ /*width 100% /12 colum = 8.3%*/
+    width:8,333333333333333%;
+ 
+}
+
+.col-2{ /*Saco el ancho de cada columna con 8.3333*ndecolumna =>16.666 lleno todas las columnas */
+    width:16,66666666666667%;
+}
+
+.col-3{ /*width 100% /12 colum = 8.3% | 8.3333*3 =*/ 
+    width:25%;
+}
+
+.col-4{ /*width 100% /12 colum = 8.3%*/
+    width:33,33333333333333%;
+ 
+ 
+}
+.col-5{ /*width 100% /12 colum = 8.3%*/
+    width:41,66666666666667%;
+}
+
+.col-6{ /*width 100% /12 colum = 8.3%*/
+    width:50%;
+}
+
+.col-7{ /*width 100% /12 colum = 8.3%*/
+    width:58,33333333333333%;
+}
+
+.col-8{ /*width 100% /12 colum = 8.3%*/
+    width:66,66666666666666%;
+ 
+}
+
+.col-9{ /*width 100% /12 colum = 8.3%*/
+    width:75%;
+}
+
+.col-10{ /*width 100% /12 colum = 8.3%*/
+    width:83,33333333333333%;
+}
+
+.col-11{ /*width 100% /12 colum = 8.3%*/
+    width:91,66666666666666%;
+}
+
+.col-12{ /*width 100% /12 colum = 8.3%*/
+    width:100%;
+ 
+}
+
+
+/*Reglas generales*/
+
+.col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9,.col10,.col11,.col12{
+    padding:10px;
+}
+
+.row-padding-left{
+    justify-content: center; 
+}
+.row-reverse {/*Da vuelta los elementos dentro de una fila*/
+    flex-flow: row-reverse;
+  }
+
+@media(max-width:900px){
+ 
+    .row{
+        display: inherit;
+        flex-direction: column;
+    }
+    .row-reverse {
+        flex-flow: row-reverse;
+      }
+
+    .img-product{
+        height: auto;
+        width: auto;
+        margin:auto;
+    }
+
+    .col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9,.col10,.col11,.col12{
+    width: 100%;
+    }
+    
+    .img-product {
+        max-width: 80%;
+        
+    }
+ 
+    .modulo-pago  {
+        margin:auto;
+        
+        height: auto;
+ 
+        
+    }
+    
+    .modulo-pago-images img{
+        justify-content: center;
+        width: auto;
+        height: auto;
+    }   
+
+      footer {
+        flex-direction: column;
+      }
+}

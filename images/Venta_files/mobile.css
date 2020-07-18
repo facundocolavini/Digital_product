@@ -1,0 +1,87 @@
+@media (max-width: 600px){
+    .products{
+        display: inherit;
+        height: auto;
+        width: auto;
+    
+    }
+    .product{
+        display: inherit;
+        height: auto;
+        width: auto;
+    }
+    .content{
+        display: inherit;
+        height: auto;
+        width: auto;
+    }
+    .main_section{
+        padding:4%;
+    }
+
+    .main-section h1{
+        font-size: inherit;
+    }
+    .features {
+        display: inherit;
+        width: auto;
+        height: auto;
+    }
+    .feature-content p{
+        width: auto;
+    }
+
+    .mentions{
+        display: inherit;
+      
+        margin: auto;
+      
+    }   
+
+    .mention{
+        width: inherit;
+        
+    }
+    .mention p{
+        width: auto;
+        height: auto;
+    }
+
+    .image-mention  {
+        width: inherit;
+    }
+    .image-mention img {
+        
+    }
+    .content-product{
+        display: inherit;
+       
+    }
+    .product-description h2{
+        margin:auto;
+        width: auto;
+        height: auto;
+    }
+    .product-description p{
+      
+        width: auto;
+        height: auto;
+    }
+    .img-content-product img {
+        margin:auto;
+    }
+    
+
+
+    /*Formulario*/
+    .main-products{
+        padding: 15%;
+        display:inherit;
+    }
+
+    .product-content{
+        margin:auto;
+        width: auto;
+        height: auto;
+    }
+}
